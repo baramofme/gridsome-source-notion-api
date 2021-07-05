@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://gridsome.org/">
+    <img alt="Gridsome" src="https://gridsome.org/logos/only-logo.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby Source Plugin Notion API
+  Gridsome Source Plugin Notion API
 </h1>
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/669015699caf1728d984/maintainability)](https://codeclimate.com/github/orlowdev/gatsby-source-notion-api/maintainability)
@@ -12,24 +12,24 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![versioning: or-release](https://img.shields.io/badge/versioning-%7C%7Cr-E76D83.svg)](https://github.com/orlowdev/or-release)
 
-Gatsby source plugin for working with official [Notion](https://notion.so) API.
+Gridsome source plugin for working with official [Notion](https://notion.so) API.
 
 Here's a [Postman](https://www.postman.com/) collection to play around with the API if you're interested: [https://www.postman.com/notionhq/workspace/notion-s-public-api-workspace/overview](https://www.postman.com/notionhq/workspace/notion-s-public-api-workspace/overview)
 
 ## 🚧 It's a work in progress
 
-This is a source plugin for pulling content into Gatsby from official public Notion API (currently
-in beta). With this plugin, you will be able to query your Notion pages in Gatsby using GraphQL.
+This is a source plugin for pulling content into Gridsome from official public Notion API (currently
+in beta). With this plugin, you will be able to query your Notion pages in Gridsome using GraphQL.
 
 [Notion API Reference](https://developers.notion.com/reference/intro)
 
-[An example](https://gatsby-source-notion-api-demo.netlify.app)
+<!-- [An example](https://gatsby-source-notion-api-demo.netlify.app) -->
 
-[Here's my blog running on gatsby-source-notion-api](https://orlow.dev)
+<!-- [Here's my blog running on gatsby-source-notion-api](https://orlow.dev) -->
 
 ## Features
 
-- Get your Notion pages in Gatsby via GraphQL
+- Get your Notion pages in Gridsome via GraphQL
 - Convenient access to page properties
 - Page contents in Markdown!
 - Normalised page title
@@ -41,20 +41,20 @@ in beta). With this plugin, you will be able to query your Notion pages in Gatsb
   - `code` (`$VALUE`)
   - color 🤷 (`<span notion-color="$COLOR">$VALUE</span>`)
 - Access to raw data returned by Notion API
-- Support for `markdown-remark` and `mdx`
+<!-- - Support for `markdown-remark` and `mdx` -->
 
 ## Install
 
 ```sh
-yarn add gatsby-source-notion-api
+yarn add gridsome-source-notion-api
 ```
 
 or
 
 ```sh
-npm install --save gatsby-source-notion-api
+npm install --save gridsome-source-notion-api
 ```
-
+<!-- 
 ## How to use
 
 Before using this plugin, make sure you
@@ -246,7 +246,7 @@ exports.onCreateNode = async ({ node, actions: { createNode }, createNodeId, get
 	}
 }
 ```
-
+ -->
 ## Current state
 
 - Due to the fact that Notion API only appeared recently, and it is still in beta, some blocks are
